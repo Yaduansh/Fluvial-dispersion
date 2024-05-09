@@ -101,4 +101,4 @@ plt.show()
 results_df = pd.DataFrame(results_list)
 
 # Save the results to a CSV file
-results_df.to_csv("results_EHS_multiple_years1.csv", index=False)
+results_df.to_csv("EHS_parameters_multiple_years.csv", index=False)

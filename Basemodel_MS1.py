@@ -26,7 +26,7 @@ def inverse_cdf(t, k1, k2, num_samples=1000):
     return x_samples
 
 # Load the probability distribution parameters CSV file
-params_df = pd.read_csv('results_EHS_multiple_years.csv')
+params_df = pd.read_csv('EHS_parameters_multiple_years.csv')
 
 # List of years for which we want to calculate travel distances and positions
 years = [2007, 2008, 2009, 2010, 2011, 2013, 2014, 2015]
